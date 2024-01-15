@@ -69,7 +69,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(/images/mu_back.jpg);
+  background-image: url(/images/index.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -295,7 +295,7 @@ a:focus {
 }
 
 .us_section {
-  background-image: url(../images/us-bg.jpg);
+  background-image: url(../images/why-choose-us.png);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -320,6 +320,11 @@ a:focus {
   margin: 25px 10px 0 10px;
 }
 
+/* icon */
+.us_section .us_container .box .img-box i{
+ font-size: 60px;
+}
+
 .us_section .us_container .box .img-box {
   height: 100px;
   display: -webkit-box;
@@ -342,7 +347,7 @@ a:focus {
 }
 
 .heathy_section {
-  background-image: url(../images/healthy-bg.jpg);
+  background-image: url(../images/audio.png);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -387,7 +392,7 @@ a:focus {
 }
 
 .trainer_section {
-  background-image: url(../images/trainer-bg.jpg);
+  background-image: url(../images/trainer.png);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -477,6 +482,7 @@ a:focus {
   color: #000000;
   margin-top: 25px;
   padding: 12px;
+  border-radius: 10px;
 }
 
 .contact_section input::-webkit-input-placeholder {
