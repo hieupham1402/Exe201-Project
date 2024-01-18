@@ -1,0 +1,119 @@
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    width: auto;
+    min-height: 100%; 
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    margin: 0 250px;
+    background-color: #fff; /* Màu nền cho container */
+    border-radius: 10px; /* Bo tròn cạnh nếu bạn muốn */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho container */
+
+}
+nav.taskbar {
+    background-color: #555;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.taskbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav.taskbar li {
+    margin-right: 20px;
+}
+
+nav.taskbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    width: 20%;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.add-video {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các phần tử xuống dòng khi không còn đủ không gian */
+    align-items: center;
+}
+
+.add-video label {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 18px;
+    flex: 1; /* Phần trăm chiều rộng linh hoạt */
+    white-space: nowrap;
+}
+
+.add-video input {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    flex: 2; /* Phần trăm chiều rộng linh hoạt */
+}
+
+.add-video button {
+    padding: 8px 15px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#genre {
+    width: 200px; /* Điều chỉnh chiều rộng theo ý muốn */
+    padding: 8px; /* Điều chỉnh lề và padding nếu cần */
+    font-size: 16px; /* Điều chỉnh kích thước chữ nếu cần */
+    
+}
+section {
+    padding: 20px;
+    min-height: 50vh; /* Set a minimum height for sections */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
