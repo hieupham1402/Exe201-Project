@@ -11,7 +11,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: seagreen;
-    background: url('/images/Cannabis-and-music.png') no-repeat;
+    background: url('/images/audio.jpg') no-repeat;
     background-size: cover; /* Đảm bảo ảnh sẽ được coi lớn đủ để phủ hết background */
     background-position: center; /* Đảm bảo ảnh sẽ nằm chính giữa background */
 }
@@ -86,5 +86,46 @@ body{
     color: #333;
     font-weight: 700;
 }
+
+.wapper .input-box label {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.wapper .input-box select {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 15px 15px 40px;
+    appearance: none; /* Remove default arrow icon in some browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.wapper .input-box select::placeholder {
+    color: #333;
+}
+
+.wapper .input-box select:focus {
+    border-color: #fff; /* Change the border color on focus */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Add a subtle box shadow on focus */
+}
+
+.wapper .input-box select + i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
 
 

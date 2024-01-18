@@ -12,7 +12,7 @@
    <meta name="description" content="" />
    <meta name="author" content="" />
  
-   <title>Login</title>
+   <title>Forgot Password</title>
  
    <!-- slider stylesheet -->
    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -32,22 +32,30 @@
 <body>
     <div class="wrapper">
         <form action="">
-            <h1>Login</h1>
+            <h1>Forgot Password</h1>
             <div class="input-box">
                 <input type="text" placeholder="Username"
                 required>
                 <i class="bi bi-person-check-fill"></i>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Password"
+                <input type="email" placeholder="Email"
+                required>
+                <i class="bi bi-envelope-at-fill"></i>
+
+                <!-- <i class="bi bi-person-fill-lock"></i> -->
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="New Password"
                 required>
                 <i class="bi bi-person-fill-lock"></i>
             </div>
-            <div class="remmember-forgot">
-                <label><input type="checkbox">Remmember Me</label>
-                <a href="forgot.html">Forgot Password?</a>
+            <div class="input-box">
+                <input type="password" placeholder="Confirm Password"
+                required>
+                <i class="bi bi-person-fill-lock"></i>
             </div>
-            <button type="submit" class="btn">Login</button>
+            <button type="submit" class="btn"><a href="login.html"></a> Forgot</button>
             <div class="register-link">
                 <p>Don't have an account? <a href="register.html">Register</a></p>
             </div>

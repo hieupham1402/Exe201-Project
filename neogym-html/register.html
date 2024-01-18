@@ -29,7 +29,7 @@
      </head>
 <body>
     <div class="wapper">
-        <form action="">
+        <form action="" method="">
             <h1>Registration</h1>
             <div class="input-box">
                 <div class="input-field">
@@ -61,8 +61,21 @@
                     <i class="bi bi-person-fill-lock"></i>
                 </div>
             </div>
-            <label><input type="checkbox">Meo meo</label>
+            <div class="input-box">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select gender</option>
+                    <option value="male">
+                        <i class="bi bi-gender-male"></i> Male
+                    </option>
+                    <option value="female">
+                        <i class="bi bi-gender-female"></i> Female
+                    </option>
+                </select>
+            </div>
+            
 
+            <label><input type="checkbox">Meo meo</label>
             <button type="submit" class="btn">Register</button>
         </form>
     </div>
