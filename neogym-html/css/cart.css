@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    box-shadow: 0 1px 15px 1px rgba(52, 40, 104, 0.08);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px;
+}
+
+.table th, .table td {
+    border: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.ui-w-40 {
+    width: 40px !important;
+    height: auto;
+}
+
+.ui-product-color {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0.144em;
+    width: 0.875rem;
+    height: 0.875rem;
+    border-radius: 10rem;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+    vertical-align: middle;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.btn-default {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-default:hover {
+    background-color: #495057;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
